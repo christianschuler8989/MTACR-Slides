@@ -460,47 +460,124 @@
 
 	<script> newChapter("Current State"); </script>
 	<Slide><Layout>
-		<titlebar > Data Collected (TODO: Different Figures)</titlebar>
+		<titlebar > Data Collected (NLLB-01)</titlebar>
 		<mybody>
-			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
-				<!-- Images -->
-				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
-					<img src="Kurmanjî-wordcloud.png" alt="kurmanji" class="h-[30vh]">
-					<figcaption class="text-[2.3vh]">
-						Kurmanji
-					</figcaption>
-				</figure>
-				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
-					<img src="Morisien-wordcloud.png" alt="morisien" class="h-[30vh]">
-					<figcaption class="text-[2.3vh]">
-						Morisien
-					</figcaption>
-				</figure>
-				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
-					<img src="Vietnamese-wordcloud.png" alt="vietnamese" class="h-[30vh]">
-					<figcaption class="text-[2.3vh]">
-						Vietnamese
-					</figcaption>
-				</figure>
+			<ul class="a" >
+				<li>English (Original Text)</li>
+				<li>"Lillian Diana Gish (October 14, 1893 – February 27, 1993) was an American actress, director and screenwriter."</li>
+				<br>
+				<li>German (MT via GoogleTranslate and ChatGPT)</li>
+				<li>"Lillian Diana Gish (14. Oktober 1893 – 27. Februar 1993) war eine US-amerikanische Schauspielerin, Regisseurin und Drehbuchautorin."</li><!--GoogleTranslate-->
+				<li>"Lillian Diana Gish (14. Oktober 1893 – 27. Februar 1993) war eine amerikanische Schauspielerin, Regisseurin und Drehbuchautorin."</li><!--ChatGPT-->
+				<br>
+				<li>Morisien 
+				<li>"Lillian Diana Gish (inn ne 14 Oktob 1893 – inn mor 27 Fevrie 1993) li ti enn akter, enn realizater ek enn senaris Amerikenn."
+				<li>"Lillian Diana Gish (14 Oktob 1893 - 27 Fevriye 1993) ti enn aktris, realizatris ek senarist amerikenn."</li>
+				<br>
+				<li>"Vietnamese"</li>
+				<li>"Lillian Diana Gish, sinh ngày 14 tháng 10 năm 1893 và mất ngày 27 tháng 2 năm 1993, là một nữ diễn viên, đạo diễn và biên kịch người Mỹ."</li>
+				<li>"Lillian Diana Gish (14/10/1893 – 27/2/1993) là một nữ diễn viên, đạo diễn, biên kịch người Mỹ."</li>
+				<li>"Lillian Diana Gish (14/10/1893 – 27/02/1993) là một nữ diễn viên, đạo diễn và nhà biên kịch người Mỹ."</li>
+				<br>
+				<li>"Kobani"
+				<li>"Lillian Diana Gish (14'î mehê 10'an 1893 - 27'î mehê didîyan 1993) lîstikvan, derhêner û sînaronivîseke Emrîkî bû."</li>
+				<li>"Lilian Diana Gish (14î meha dehan, 1893 - 27î meha didiyan , 1993) lîstikvan, derhêner, û senarîsteke Emrîkî bû."</li>
+				<br>
+				<li>Chinese</li>
+				<li>"莉莲·戴安娜·吉什（1893年10月14日-1993年2月27日），美国女演员、导演和编剧。"</li>
+				<li>"莉莲·戴安娜·吉什（1893年10月14日－1993年2月27日）是一位美国女演员、导演和编剧。"</li>
+				<li>"莉莉安·黛安娜·吉许（1893年十月十四日-1993年二月27日）是一个美国演员，导演和编剧。"</li>
+			</ul>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
 
-				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
-					<img src="Chinese-wordcloud.png" alt="chinese" class="h-[30vh]">
-					<figcaption class="text-[2.3vh]">
-						Chinese
-					</figcaption>
-				</figure>
-				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
-					<img src="German-wordcloud.png" alt="german" class="h-[30vh]">
-					<figcaption class="text-[2.3vh]">
-						German
-					</figcaption>
-				</figure>
-				<figure class="h-[35vh] w-[30vw] float-left mx-auto my-auto">
-					<img src="English-wordcloud.png" alt="english" class="h-[30vh]">
-					<figcaption class="text-[2.3vh]">
-						English
-					</figcaption>
-				</figure>
+	<Slide><Layout>
+		<titlebar > Data Collected (NLLB-02)</titlebar>
+		<mybody>
+			<ul class="a" >
+				<li>English (Original Text)</li>
+				<li>"The seventeen-year-old Lillian traveled to Shawnee, Oklahoma, where James's brother Alfred Grant Gish and his wife, Maude, lived."</li>
+				<br>
+				<li>German (MT via GoogleTranslate and ChatGPT)</li>
+				<li>"Die siebzehnjährige Lillian reiste nach Shawnee, Oklahoma, wo James‘ Bruder Alfred Grant Gish und seine Frau Maude lebten."</li><!--GoogleTranslate-->
+				<li>"Die siebzehnjährige Lillian reiste nach Shawnee, Oklahoma, wo James' Bruder Alfred Grant Gish und seine Frau, Maude, lebten."</li><!--ChatGPT-->
+				<br>
+				<li>Morisien 
+				<li>"Laz diset-an, Lillian ti al rest dan lavil Shawnee an Oklahoma (Etazini), kot frer so papa James, ki apele Alfred Grant Gish ek so madam, Maude."
+				<li>"Lillian, ki ena diset an, ti al Shawnee, dan Oklahoma, kot frer James, Alfred Grant Gish ek so madam, Maude ti viv."</li>
+				<br>
+				<li>"Vietnamese"</li>
+				<li>"Ở tuổi mười bảy, Lillian đến Shawnee, Oklahoma, nơi anh trai của James, Alfred Grant Gish và vợ Maude sinh sống."</li>
+				<li>"Lillian, khi đó 17 tuổi, đã đến thành phố Shawnee thuộc tiểu bang Oklahoma, nơi anh trai của James là Alfred Grant Gish và vợ của ông ấy sinh sống."</li>
+				<li>"Cô nàng Lillian mười bảy tuổi đã đến Shawnee, Oklahoma, tại đây có người anh trai của James là Alfred Grant Gish và vợ Maude sinh sống."</li>
+				<br>
+				<li>"Kobani"
+				<li>"Lillian 17-salî çû Shawnee, Oklahoma, cihê ku birayê James Alfred Grant Gish û jina wî, Maude, lê dijîyan."</li>
+				<li>"Lilliana hevde salîn çû Shawnee, Oklahoma, cê ku birê James Alfred Grant Gish û jina xwe lê dijiyan."</li>
+				<br>
+				<li>Chinese</li>
+				<li>"17岁的莉莲前往俄克拉何马州的肖尼市，詹姆斯的哥哥阿尔弗雷德·格兰特·吉什和他的妻子莫德就住在那里。"</li>
+				<li>"17岁的莉莲前往俄克拉荷马州的肖尼市，詹姆斯的哥哥Alfred Grant Gish和他的妻子Maude住在那里。"</li>
+				<li>"17岁的莉莉安去了奥克拉荷马州的肖尼，在那里住过詹姆斯的兄弟阿尔弗雷德·格兰特·吉许和他的妻子莫德。"</li>
+			</ul>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Data Collected (Flikr30k-01)</titlebar>
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto auto; mx-auto my-auto;">
+				<img src="13651137.jpg" alt="Flikr30k Number 80" class="h-[75vh]">
+				<ul class="b" >
+					<li>Kobani</li>
+					<li>"mêrkek bi kombrêsê erdê xerab dikê"</li>
+					<br>
+					<li>Morisien</li>
+					<li>"enn missier p craze simin avec so machine craz roche"</li>
+					<br>
+					<li>Vietnamese</li>
+					<li>"Một công nhân xây dựng đang làm việc với một búa khoan."</li>
+					<li>"Anh ấy đang phá dỡ đường"</li>
+					<br>
+					<li>Chinese</li>
+					<li>"一名工人正在拆除房屋前面的水泥路面"</li>
+					<br>
+				</ul>
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Data Collected (Flikr30k-02)</titlebar>
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto auto; mx-auto my-auto;">
+				<img src="10815824.jpg" alt="Flikr30k Number 16" class="w-[50vw]">
+				<ul class="b" >
+					<li>Kobani</li>
+					<li>"Qîzkek û mêrekî li baxçakî ne, li ber qîzikê hespek hê û li paş merik jî yek hê. Qîzik û hespî xwe li ber êr in."</li>
+					<br>
+					<li>Vietnamese</li>
+					<li>"Cô gái đang chăn ngựa"</li>
+					<li>"Trong trang là hình ảnh cô bé đang dắt 1 chú ngựa và phía đằng xa có lẻ là 1 huấn luyện viên của cô ấy thì phải."</li>
+					<li>"Cô gái mặc áo đen đang đứng cầm dây cương ngựa, cả hai đứng bên cạnh một bếp lữa."</li>
+					<br>
+					<li>Chinese</li>
+					<li>"因为年轻女士牵着马站在火堆前"</li>
+					<br>
+				</ul>
+			</div>
 		</mybody>
 	</Layout>
 	<Notes>
@@ -526,7 +603,12 @@
 		<mybody>
 			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
 				<!-- Images -->
-				CRAMT hard!
+				<!--CRAMT hard!-->
+
+				<div class="h-[75vh] w-[95vw]">
+					<iframe src="2024-CRAMT_Poster_Expo-Schuler_Tran_Saurty_Wang_Ahmad_Yimam.pdf#page=1&zoom=20" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
+				</div>
+				
 		</mybody>
 	</Layout>
 	<Notes>
@@ -635,10 +717,10 @@
 					</figcaption>
 				</figure>
 				
-				<ul class="a" >
+				<ul class="b" >
 					<li>1. CRAMT tool demo-paper at ACL or EMNLP.</li>
 					<br>
-					<li>2. CRAMT tool research-paper once we have some more results and the time to do more evaluation.
+					<li>2. CRAMT tool research-paper once we have some more results and the time to do more evaluation.</li>
 					<br>
 					<li>3. MTACR corpus research-paper.</li>
 				</ul>
@@ -654,12 +736,14 @@
 	<Slide><Layout>
 		<titlebar > Three-fold Outcome </titlebar>
 		<mybody>
-			<ul class="a" >
+			<ul class="b" >
 				<li>1. Text Corpus for specific target languages aiming to provide new aligned text data.</li>
 				<br>
-				<li>2. Analysis of the collected and aligned data. 
-					<br>Some help to get a quick idea of the data distribution such as generated word clouds,
-					<br>but also reports to provide deeper insights about the data.</li>
+				<li>2. Analysis of the collected and aligned data.</li>
+				<ul class="c"> 
+					<li>Some help to get a quick idea of the data distribution such as generated word clouds,</li>
+					<li>but also reports to provide deeper insights about the data.</li>
+				</ul>
 				<br>
 				<li>3. Datasheet that can represent and explain the newly created dataset and its purpose.</li>
 			</ul>
@@ -810,6 +894,7 @@
 		ul.a {
 			list-style-type: square;
 			padding-top:5vh;
+			font-size:2.5vh;
 		}
 		ul.b {
 			list-style-type: circle;
@@ -817,6 +902,7 @@
 			margin-right:5vh;
 			padding-top:1vh;
 			padding-bottom:1vh;
+			font-size:3.5vh;
 		}
 		ul.c {
 			list-style-type: disc;
