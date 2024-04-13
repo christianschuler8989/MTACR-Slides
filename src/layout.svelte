@@ -29,8 +29,10 @@
 		--secondred: #ff9090;
 		--chrisgreen: #338833;
 		--secondgreen: #33bb33;
-		--themecolor: var(--uhhred);
-		--themecolorlight: var(--chrisgreen);
+		--thirdgreen: #58c7c7;
+		--fireorange: #7439a5;
+		--themecolor: var(--thirdgreen);
+		--themecolorlight: var(--fireorange);
 	}
 	.topbar{
 		/* margin-top: 0.5vh; */

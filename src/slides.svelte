@@ -13,7 +13,7 @@
 <Presentation>	
 	<script>
 		// information about this presentation 
-		const author = "Christian Schuler, Tramy Thi Tran, Deepesga Saurty, <br>Anran Wang, Raman Ahmad, Seid Muhie Yimam"; 
+		const author = "Christian Schuler, Tramy Thi Tran, Deepesha Saurty, <br>Anran Wang, Raman Ahmad, Seid Muhie Yimam"; 
 		const authorshort = "Schuler, Tran, Saurty, Wang, Ahmad, Yimam"; 
 		const title = "TextAsCorpusRep";
 		const subtitle = "Multilingual Text As Corpus Repository for Machine Translation of Low-Resource Languages";
@@ -220,7 +220,138 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
-	
+	<script>newChapter("Our Languages")</script>
+	<Slide><Layout>
+		<titlebar>Vietnamese </titlebar>
+		<mybody>
+			
+			<div class="backgrounds bg-cover bg-center" style="background-image: url('Vietnam-Background.png'); margin-top:4.3rem; margin-bottom: 2rem;">
+				<div class="grid" style="grid-template-columns: 2fr 1fr; mx-auto my-auto;">
+					<div>
+						<p class="text-3xl font-bold mt-4 ml-12 text-left">Name:</p>
+					<ul class="d">
+						<li>Vietnamese (Tiếng Việt)</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">Vietnam: </span>
+						Country in Southeast Asia
+					</p>
+					<ul class="d">
+						<li>Prior to the alphabet reform, Vietnam used Chinese
+							characters (Chữ Nôm)</li>
+						<li>When Vietnam was conquered by the French, the Latin alphabet (Chữ Quốc Ngữ) systematically replaced the Chinese characters as the written language for everybody 
+							<br> -&gt greatly increased literacy in Vietnam</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">Vietnamese: </span>
+						Three main dialect regions
+					</p>
+					<ul class="d">
+						<li>More than 80 million native speakers</li>
+						<li>Various dialects, generally mutually intelligible</li>
+						<li>Vocabulary influenced by Chinese and French</li>
+					</ul>
+					</div>
+					<div class="flex justify-center items-center">
+						<img src="Vietnam-Wikipedia-Position.png" alt="Vietnam Position" class="h-[60vh] w-auto mr-16">
+					</div>
+				</div>
+				
+			</div>
+			
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar>Kurdish </titlebar>
+		<mybody>
+			<div class="backgrounds bg-cover bg-center" style="background-image: url('Kurdistan-Background.png'); margin-top:4.3rem; margin-bottom: 2rem;">
+				<div class="grid" style="grid-template-columns: 2fr 1fr; mx-auto my-auto;">
+					<div>
+						<p class="text-3xl font-bold mt-4 ml-12 text-left">Name:</p>
+					<ul class="d">
+						<li>Kurdish (Kurdî)</li>
+						<li>Kurdish -&gt Kurmanji -&gt Southwestern -&gt Kobani</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">Kurdistan: </span>
+						Not being an officially recognized nation
+					</p>
+					<ul class="d">
+						<li>Scene of armed struggles since First World War</li>
+						<li>No government that organizes or funds language research</li>
+						<li>Population separated over nations and language spheres</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">Kurdish: </span>
+						Made up of a vast dialect continuum
+					</p>
+					<ul class="d">
+						<li>Approximately 25 million speakers</li>
+						<li>Sorani (Central Kurdish) ~7 million Kurds</li>
+						<li>Kurmanji (Northern Kurdish) ~15-20 million Kurds</li>
+						<li>For a long time illegal to read & write</li>
+					</ul>
+					</div>
+					<div class="flex justify-center items-center">
+						<img src="Kurdistan-Wikipedia-Position.png" alt="Kurdistan Position" class="h-[60vh] w-auto mr-16">
+					</div>
+				</div>
+				
+			</div>
+			
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar>Mauritian Creole </titlebar>
+		<mybody>
+			<div class="backgrounds bg-cover bg-center" style="background-image: url('Mauritius-Background.png'); margin-top:4.3rem; margin-bottom: 2rem;">
+				<div class="grid" style="grid-template-columns: 2fr 1fr; mx-auto my-auto;">
+					<div>
+						<p class="text-3xl font-bold mt-4 ml-12 text-left">Name:</p>
+					<ul class="d">
+						<li>Mauritian Creole or Morisien (formerly Morisyen)</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">Mauritius: </span>
+						An island nation and popular tourist spot
+					</p>
+					<ul class="d">
+						<li>Morisien is a young language influenced by many others</li>
+						<li>Only recently formalized grammar and spelling</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">Morisien: </span>
+						A relatively small language community
+					</p>
+					<ul class="d">
+						<li>Approximately 1.3 million speakers</li>
+						<li>French-based, with some English loan-words</li>
+						<li>Different spellings and grammar rules</li>
+					</ul>
+					</div>
+					<div class="flex justify-center items-center">
+						<img src="Mauritius-Wikipedia-Position.png" alt="Mauritius Position" class="h-[60vh] w-auto mr-28">
+					</div>
+				</div>
+				
+			</div>
+			
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
 
 	<script>newChapter("Motivation");</script>
 	<Slide><Layout>
@@ -910,6 +1041,18 @@
 			margin-right:5vh;
 			padding-top:1vh;
 			padding-bottom:1vh;
+		}
+		ul.d {
+			list-style-type: circle;
+			margin-left:10vh;
+			margin-right:5vh;
+			padding-top:1vh;
+			padding-bottom:1vh;
+			font-size:3.5vh;
+		}
+		ul.d li {
+			padding-top:0vh;
+			line-height:4.5vh;
 		}
 		ul{
 			text-align: left;
