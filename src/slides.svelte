@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Presentation, Slide, Notes } from '@components'
+	import { Presentation, Slide, Notes, Step } from '@components'
 	import Layout from './layout.svelte'
 </script>
 
@@ -102,19 +102,19 @@
 					<!-- Names -->
 					
 
-					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+					<div class="flex w-[16vw] items-center justify-center gap-[5px] text-[3vh]">
 						Christian Schuler
 					</div>
-					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+					<div class="flex w-[16vw] items-center justify-center gap-[10px] text-[3vh]">
 						Tramy Thi Tran
 					</div>
-					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+					<div class="flex w-[16vw] items-center justify-center gap-[10px] text-[3vh]">
 						Deepesha Saurty
 					</div>
-					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+					<div class="flex w-[16vw] items-center justify-center gap-[10px] text-[3vh]">
 						Anran Wang
 					</div>
-					<div class="flex w-[16vw] items-center justify-center gap-[10px]">
+					<div class="flex w-[16vw] items-center justify-center gap-[10px] text-[3vh]">
 						Raman Ahmad
 					</div>
 					<div class="flex w-[16vw] items-center justify-center gap-[10px] text-[3vh]">
@@ -122,7 +122,6 @@
 					</div>
 
 					<!-- Images -->
-
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
 						<a href="https://christianschuler8989.github.io/">
 							<img src="Christian_Schuler_08_Energydrink.jpg" alt="christian" class="h-[40vh]">
@@ -135,40 +134,48 @@
 						</a>
 					</figure>
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
-						<img src="DDLitLab-TextAsCorpusRep-Myyyy2.jpeg" alt="myy" class="h-[40vh]">
-						<figcaption class="text-[2.3vh]">
-							Bachelor student in something like computer science at University of Hamburg.
-						</figcaption>
-						<figcaption class="text-[1.3vh]">
-							She is not simply the head of our HR-department, she IS the entire department! XD #bestProjectCoordinatorInTown
-						</figcaption>
+						<a href="LINK_FOR_TANIA_HERE">
+							<img src="DDLitLab-TextAsCorpusRep-Myyyy2.jpeg" alt="myy" class="h-[40vh]">
+							<figcaption class="text-[2.3vh]">
+								Bachelor student in something like computer science at University of Hamburg.
+							</figcaption>
+							<figcaption class="text-[1.3vh]">
+								She is not simply the head of our HR-department, she IS the entire department! XD #bestProjectCoordinatorInTown
+							</figcaption>
+						</a>
 					</figure>
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
-						<img src="DDLitLab-TextAsCorpusRep-Tania2.jpg" alt="tania" class="h-[40vh]">
-						<figcaption class="text-[2.3vh]">
-							Bachelor student in computer science at University of Hamburg.
-						</figcaption>
-						<figcaption class="text-[1.3vh]">
-							By now she went down the rabbit hole of science so much, that people actually heard her say "Algorithms are fun!"
-						</figcaption>
+						<a href="LINK_FOR_TANIA_HERE">
+							<img src="DDLitLab-TextAsCorpusRep-Tania2.jpg" alt="tania" class="h-[40vh]">
+							<figcaption class="text-[2.3vh]">
+								Bachelor student in computer science at University of Hamburg.
+							</figcaption>
+							<figcaption class="text-[1.3vh]">
+								By now she went down the rabbit hole of science so much, that people actually heard her say "Algorithms are fun!"
+							</figcaption>
+						</a>
 					</figure>
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
-						<img src="Anran_Wang_01.png" alt="anran" class="h-[40vh]">
-						<figcaption class="text-[2.3vh]">
-							Master student in computer science at Technical University Munich.
-						</figcaption>
-						<figcaption class="text-[1.3vh]">
-							She is so awesome, that she did not start looking for a PhD position like most mortal beings do- the PhD position came falling out of the sky and had to apply to her first!
-						</figcaption>
+						<a href="https://anranw.github.io/">
+							<img src="Anran_Wang_01.png" alt="anran" class="h-[40vh]">
+							<figcaption class="text-[2.3vh]">
+								Master student in computer science at Technical University Munich.
+							</figcaption>
+							<figcaption class="text-[1.3vh]">
+								She is so awesome, that she did not start looking for a PhD position like most mortal beings do- the PhD position came falling out of the sky and had to apply to her first!
+							</figcaption>
+						</a>
 					</figure>
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
-						<img src="Raman_Ahmad_01.png" alt="raman" class="h-[40vh]">
-						<figcaption class="text-[2.3vh]">
-							Bachelor student in computer science at Hochschule für Angewandte Wissenschaften in Hamburg.
-						</figcaption>
-						<figcaption class="text-[1.3vh]">
-							He is currently exploring various ways to advance the low-resource language Kurdish with a focus on the Kobani dialect.
-						</figcaption>
+						<a href="https://ramanahmad.github.io/">
+							<img src="Raman_Ahmad_01.png" alt="raman" class="h-[40vh]">
+							<figcaption class="text-[2.3vh]">
+								Bachelor student in computer science at Hochschule für Angewandte Wissenschaften in Hamburg.
+							</figcaption>
+							<figcaption class="text-[1.3vh]">
+								He is currently exploring various ways to advance the low-resource language Kurdish with a focus on the Kobani dialect.
+							</figcaption>
+						</a>
 					</figure>
 					<figure class="h-[60vh] w-[15vw] float-left mx-auto my-auto">
 						<a href="https://seyyaw.github.io/">
@@ -184,16 +191,16 @@
 					
 					<!-- Logos -->
 					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
-						<img src="tum-logo.png" alt="tum-logo" class="h-[7vh]">
+						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
 					</figure>
 					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
 						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
 					</figure>
 					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
-						<img src="haw-logo.png" alt="haw-logo" class="h-[7vh]">
+						<img src="uhh-logo.png" alt="uhh-logo" class="h-[7vh]">
 					</figure>
 					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
-						<img src="haw-logo.png" alt="haw-logo" class="h-[7vh]">
+						<img src="tum-logo.png" alt="tum-logo" class="h-[7vh]">
 					</figure>
 					<figure class="flex h-[10vh] w-[15vw] items-center justify-center mx-auto my-auto">
 						<img src="haw-logo.png" alt="haw-logo" class="h-[7vh]">
@@ -355,7 +362,7 @@
 
 	<script>newChapter("Motivation");</script>
 	<Slide><Layout>
-		<titlebar > To improve  </titlebar>
+		<titlebar > Translation Systems (Here Google Translate) Failing Languages  </titlebar>
 		<mybody>
 			<div class="flex items-center justify-center">
 				<img class="h-[75vh] align-middle" src="CRAMT-Tool-MotivationSimpleMore.png" alt="tum logo">
@@ -409,7 +416,7 @@
 						<td>0</td>
 					</tr>
 				  </table>
-				<figcaption>
+				<figcaption class="text-[3.5vh]">
 					Number of language varieties (#Var) and <br> corresponding ISO-Codes (#ISO) according to Glottolog [1], <br> number of wikipedia articles (#Wiki) according to Wikimedia [2].
 				</figcaption>
 				<p class="text-[2vh]">
@@ -491,7 +498,7 @@
 		<mybody>
 			<figure class="h-[80vh] w-[95vw] float-left mx-auto my-auto">
 				<img src="CRAMT-Tool-WordAlignmentLimitation.png" alt="ambiguities2" class="h-[70vh]">
-				<figcaption class="w-[93vw]">
+				<figcaption class="w-[93vw] text-[4vh]">
 					The word ambiguity during translation of the German Grün into the English green resulting in additional translation candidates.
 				</figcaption>
 			</figure>
@@ -511,7 +518,7 @@
 		<mybody>
 			<figure class="h-[80vh] w-[95vw] float-left mx-auto my-auto">
 				<img src="CRAMT-Tool-WordAlignmentLimitationExample.png" alt="ambiguities1" class="h-[70vh]">
-				<figcaption class="w-[93vw]">
+				<figcaption class="w-[93vw] text-[4vh]">
 					Continuing on ambiguous translations (red) instead of aggregating to the most likely candidate (green) can enrich a dataset with additional labels across languages (blue).
 				</figcaption>
 			</figure>
@@ -519,6 +526,53 @@
 			<!-- <div class="flex items-center justify-center">
 				<img class="h-[70vh] w-[95vw] align-middle" src="CRAMT-Tool-WordAlignmentLimitationExample.png" alt="tum logo">
 			</div> -->
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Collecting Multilingual Text Data </titlebar>
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto auto; mx-auto my-auto;">
+				<div class="text-[5vh] p-5">
+					Translating from English
+				</div>
+				<div class="text-[5vh] p-5">
+					Monolingual Descriptions
+				</div>
+				<figure class="h-[25vh] w-[30vw] mx-auto my-auto">
+					<a href="https://ai.meta.com/research/no-language-left-behind/">
+						<img src="nllb-logo.png" alt="NLLB Logo" class="w-[20vw] h-[20vh] align-middle">
+						<!-- Source: https://wandb.ai/telidavies/ml-news/reports/Meta-Releases-NLLB-200-New-Open-Source-Model-Able-To-Translate-200-Languages--VmlldzoyMjc4NzIz -->
+					</a>
+				</figure>
+				<figure class="h-[25vh] w-[30vw] mx-auto my-auto">
+					<a href="https://paperswithcode.com/dataset/flickr30k">
+						<img src="flickr30k-logo.png" alt="Flickr30k Logo" class="w-[30vw] h-[20vh] align-middle">
+						<!-- Source: https://paperswithcode.com/dataset/flickr30k -->
+					</a>
+				</figure>
+				<div class="text-[3vh]">
+					No Language Left Behind (NLLB) is a first-of-its-kind, 
+					AI breakthrough project that open-sources models capable of delivering evaluated, 
+					high-quality translations directly between 200 languages—
+					including low-resource languages like Asturian, Luganda, Urdu and more. 
+					<br><br>
+					It aims to give people the opportunity to access and 
+					share web content in their native language, 
+					and communicate with anyone, anywhere, regardless of their language preferences.
+				</div>
+				<div class="text-[3vh]">
+					The Flickr30k dataset contains 31,000 images collected from Flickr, 
+					together with 5 reference sentences provided by human annotators.
+					<br><br>
+					Has already been extended to German, French, Czech, Chinese, and Ukrainian
+				</div>
+			</div>
+			
 		</mybody>
 	</Layout>
 	<Notes>
@@ -547,7 +601,7 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
-	<script> newChapter("Used Tools"); </script>
+	<!-- <script> newChapter("Used Tools"); </script> -->
 	<Slide><Layout>
 		<titlebar > GlotLID (TODO) </titlebar>
 		<mybody>
@@ -588,8 +642,6 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
-
-	<script> newChapter("Current State"); </script>
 	<Slide><Layout>
 		<titlebar > Data Collected (NLLB-01)</titlebar>
 		<mybody>
@@ -716,12 +768,29 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
+	<script> newChapter("Current State"); </script>
+
+	<Slide><Layout>
+		<titlebar > Collected Data </titlebar>
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto auto; mx-auto my-auto;">
+				<Step fadeRight><img src="mtacr-2024-april.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
+				<Step fadeRight><img src="mtacr-2024-april-targets.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
+				<Step fadeDown><img src="mtacr-2024-april-noeng.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
+				<Step fadeDown><img src="mtacr-2024-april-all.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
 	<Slide><Layout>
 		<titlebar > Insights Gained </titlebar>
 		<mybody>
 			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
 				<!-- Images -->
-				Doing this kind of work is fucking hard!
+				Doing this kind of work is [chết tiệt] hard!
 		</mybody>
 	</Layout>
 	<Notes>
@@ -730,16 +799,23 @@
 	</Notes></Slide>
 
 	<Slide><Layout>
-		<titlebar > How Hard is it? </titlebar>
+		<titlebar > Introducing CRAMT - A Participatory Research Approach</titlebar>
 		<mybody>
-			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
+			<div class="grid" style="grid-template-columns: auto auto; mx-auto my-auto;">
 				<!-- Images -->
-				<!--CRAMT hard!-->
-
-				<div class="h-[75vh] w-[95vw]">
-					<iframe src="2024-CRAMT_Poster_Expo-Schuler_Tran_Saurty_Wang_Ahmad_Yimam.pdf#page=1&zoom=20" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
+				<div class="h-[75vh] w-[45vw]">
+				<ul class="b" >
+					<li>To enable others to do what we did
+						<ul class="b" >
+							<li>less tech-savvy? </li>
+							<li>new to NLP? </li>
+							<li>no idea where to start? </li>
+						</ul>
+				</ul>
 				</div>
-				
+				<div class="h-[75vh] w-[45vw]">
+					<iframe src="2024-CRAMT_Poster_Expo-Schuler_Tran_Saurty_Wang_Ahmad_Yimam.pdf#page=1&zoom=13" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
+				</div>
 		</mybody>
 	</Layout>
 	<Notes>
@@ -748,13 +824,29 @@
 	</Notes></Slide>
 
 	<Slide><Layout>
-		<titlebar > CRAMT at BUCC (LREC-COLING) Workshop? </titlebar>
+		<titlebar > CRAMT at Workshop on Building and Using Comparable Corpora (LREC-COLING) </titlebar>
 		<mybody>
-			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
 				<!-- Images -->
-				Close, but no cigar!<br><br>
+				<p>
+					Close, but no cigar!<br>
+					Additional to the reviews we received very encouraging words though:<br><br>	
+				</p>
+				
+				<p>
+					The selection process was very competitive. 
+					Due to time and space limitations, we could only choose a limited number of the submitted papers 
+					to appear on the program. Nonetheless, I still hope you can attend the conference. <br>
+					Additionally, <mark> given the interest found in your project, we encourage you 
+					to submit an updated version of your paper next year.</mark><br><br>
+				</p>
 
-				Very encouraging words though, which is nice! :)
+				<p>
+					We are happy that you found the reviewers' comments useful.  
+					As mentioned in the specific word added to the notification message, 
+					<mark>we hope you can submit an updated paper next year!</mark> 
+				</p>
+				
 		</mybody>
 	</Layout>
 	<Notes>
@@ -767,14 +859,14 @@
 		<mybody>
 			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
 				<!-- Images -->
-				<figure class="h-[75vh] w-[45vw] float-left mx-auto my-auto">
-					<img src="event-2024-EXPO-Poster.jpg" alt="CRAMT EXPO" class="h-[70vh]">
+				<figure class="h-[65vh] w-[40vw] float-left mx-auto my-auto">
+					<img src="event-2024-EXPO-Poster.jpg" alt="CRAMT EXPO" class="h-[65vh]">
 					<figcaption class="text-[3.3vh]">
 						Poster presentation to faculty, students, pupils.
 					</figcaption>
 				</figure>
-				<figure class="h-[75vh] w-[45vw] float-left mx-auto my-auto">
-					<img src="event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG" alt="CRAMT award" class="h-[70vh]">
+				<figure class="h-[65vh] w-[52vw] float-left mx-auto my-auto">
+					<img src="event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG" alt="CRAMT award" class="h-[65vh]">
 					<figcaption class="text-[3.3vh]">
 						CRAMT was awarded second place.
 					</figcaption>
@@ -847,14 +939,20 @@
 						Conceptualization of future conference attendence.
 					</figcaption>
 				</figure>
+				<div class="w-[50vw]">
+					<ul class="b" >
+						<li>1. CRAMT tool demo-paper at ACL or EMNLP(?)</li>
+						<br>
+						<li>2. CRAMT tool research-paper once we have</li>
+							<ul class="b" >
+								<li>some more results and </li>
+								<li>the time to do more evaluations</li>
+							</ul>
+						<br>
+						<li>3. MTACR corpus research-paper.</li>
+					</ul>
+				</div>
 				
-				<ul class="b" >
-					<li>1. CRAMT tool demo-paper at ACL or EMNLP.</li>
-					<br>
-					<li>2. CRAMT tool research-paper once we have some more results and the time to do more evaluation.</li>
-					<br>
-					<li>3. MTACR corpus research-paper.</li>
-				</ul>
 			</div>
 		</mybody>
 	</Layout>
@@ -865,19 +963,61 @@
 
 	<script> newChapter("Conclusion"); </script>
 	<Slide><Layout>
-		<titlebar > Three-fold Outcome </titlebar>
+		<titlebar > Main Project: TextAsCorpusRep </titlebar>
 		<mybody>
-			<ul class="b" >
-				<li>1. Text Corpus for specific target languages aiming to provide new aligned text data.</li>
-				<br>
-				<li>2. Analysis of the collected and aligned data.</li>
-				<ul class="c"> 
-					<li>Some help to get a quick idea of the data distribution such as generated word clouds,</li>
-					<li>but also reports to provide deeper insights about the data.</li>
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
+				<a href="https://github.com/Low-ResourceDialectology/TextAsCorpusRep">
+					<img src="TextAsCorpusRep-Auxiliary-Logo.png" alt="MTACR Logo" class="w-[90vw]">
+					<figcaption class="text-[2.3vh]">
+						Multilingual Text As Corpus Repository for Machine Translation of Low-Resource Language
+					</figcaption>
+				</a>
+				<ul class="b" >
+					<li>Text Corpus for</li>
+					<ul class="c"> 
+						<li>Kurdish Kobani, Morisien Creole, Vietnamese, Chinese</li>
+					</ul>
+					<li>Novel Data</li>
+					<ul class="c"> 
+						<li>via scraping the internet + cleaning</li>
+						<li>via translations from English</li>
+						<li>via image descriptions by native speakers</li>
+					</ul>
+					<li>Previous Data</li>
+					<ul class="c"> 
+						<li>from available mono- and multi-lingual datasets</li>
+					</ul>
 				</ul>
-				<br>
-				<li>3. Datasheet that can represent and explain the newly created dataset and its purpose.</li>
-			</ul>
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Auxiliary Project: CRAMT </titlebar>
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
+				<a href="https://github.com/christianschuler8989/CRAMT">
+					<img src="CRAMT-Tool-Logo.png" alt="CRAMT Logo" class="w-[90vw]">
+					<figcaption class="text-[2.3vh]">
+						Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata 
+					</figcaption>
+				</a>
+				<ul class="b" >
+					<li>1. Text Corpus for specific target languages aiming to provide new aligned text data.</li>
+					<br>
+					<li>2. Analysis of the collected and aligned data.</li>
+					<ul class="c"> 
+						<li>Some help to get a quick idea of the data distribution such as generated word clouds,</li>
+						<li>but also reports to provide deeper insights about the data.</li>
+					</ul>
+					<br>
+					<li>3. Datasheet that can represent and explain the newly created dataset and its purpose.</li>
+				</ul>
+			</div>
 		</mybody>
 	</Layout>
 	<Notes>
@@ -890,7 +1030,7 @@
 		<mybody>
 			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
 				<a href="https://github.com/Low-ResourceDialectology/TextAsCorpusRep">
-					<img src="mtacr-logo.png" alt="MTACR Logo" class="h-[30vh]">
+					<img src="TextAsCorpusRep-Auxiliary-Logo.png" alt="MTACR Logo" class="h-[30vh]">
 					<figcaption class="text-[2.3vh]">
 						Main Project: TextAsCorpusRep
 					</figcaption>
@@ -899,7 +1039,7 @@
 					</figcaption>
 				</a>
 				<a href="https://github.com/christianschuler8989/CRAMT">
-					<img src="cramt-logo.png" alt="CRAMT Logo" class="h-[30vh]">
+					<img src="CRAMT-Tool-Logo.png" alt="CRAMT Logo" class="h-[30vh]">
 					<figcaption class="text-[2.3vh]">
 						Auxiliary Project: CRAMT
 					</figcaption>
@@ -917,28 +1057,53 @@
 
 	<script> newChapter("Appendix"); </script>
 	<Slide><Layout>
-		<titlebar > Poster-Related References (TODO) </titlebar>
+		<titlebar > References </titlebar>
 		<mybody>
-			<ul class="a" >
-				<li>Ahmadi, (2020)</li>
-				<li>Yu, et al., (2022)</li>
-				<li>Artetxe, et al., (2022)</li>
-				<li>Kreutzer, et al., (2022)</li>
-				<li>Vulić, et al., (2013)</li>
-				<li>Gouws, et al., (2016)</li>
-				<li>Bafna, et al., (2023)</li>
-				<li>Karakante, et al., (2018)</li>
-				<li>Reimers, et al., (2020)</li>
-				<li>de Vries, et al., (2021)</li>
-				<li>Yimam, et al., (2020)</li>
-				<li>Millour, et al., (2020)</li>
-				<li>Lent, et al., (2022)</li>
-				<li>Liu, et al., (2022)</li>
-				<li>Cahyawijaya, et al., (2023)</li>
-				<li>Pei, et al., (2022)</li>
-				<li>Kargaran, et al., (2023)</li>
-				<li>Haig, (2001)</li>
-			</ul>
+			<div class="grid" style="grid-template-columns: auto auto auto; mx-auto my-auto;">
+				<div>
+					<div class="text-[3.0vh]">
+						MTACR-Related (TODO)
+					</div>
+					<ul class="a" >
+						<li>Author, (Date)</li>
+						<li>Author et al., (Date)</li>
+					</ul>
+				</div>
+				<div>
+					<div class="text-[3.0vh]">
+						CRAMT-Poster-Related
+					</div>
+					<ul class="a" >
+						<li>Ahmadi, (2020)</li>
+						<li>Yu, et al., (2022)</li>
+						<li>Artetxe, et al., (2022)</li>
+						<li>Kreutzer, et al., (2022)</li>
+						<li>Vulić, et al., (2013)</li>
+						<li>Gouws, et al., (2016)</li>
+						<li>Bafna, et al., (2023)</li>
+						<li>Karakante, et al., (2018)</li>
+						<li>Reimers, et al., (2020)</li>
+						<li>de Vries, et al., (2021)</li>
+						<li>Yimam, et al., (2020)</li>
+						<li>Millour, et al., (2020)</li>
+						<li>Lent, et al., (2022)</li>
+						<li>Liu, et al., (2022)</li>
+						<li>Cahyawijaya, et al., (2023)</li>
+						<li>Pei, et al., (2022)</li>
+						<li>Kargaran, et al., (2023)</li>
+						<li>Haig, (2001)</li>
+					</ul>
+				</div>
+				<div>
+					<div class="text-[3.0vh]">
+						CRAMT-Paper-Related (TODO)
+					</div>
+					<ul class="a" >
+						<li>Author, (Date)</li>
+						<li>Author et al., (Date)</li>
+					</ul>
+				</div>
+			</div>
 		</mybody>
 	</Layout>
 	<Notes>
