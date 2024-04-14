@@ -227,6 +227,80 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
+	<script>newChapter("Motivation");</script>
+	<Slide><Layout>
+		<titlebar > Translation Systems (Here Google Translate) Failing Languages  </titlebar>
+		<mybody>
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="CRAMT-Tool-MotivationSimpleMore.png" alt="tum logo">
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Lack of Standardization </titlebar>
+		<mybody>
+			<figure>
+				<table>
+					<tr>
+						<th>Dialect Group</th>
+						<th>#Var</th>
+						<th>#ISO Codes</th>
+						<th>#Wiki (Articles)</th>
+					</tr>
+					<tr>
+						<td>Central Kurdish</td>
+						<td>13</td>
+						<td>2</td>
+						<td>53,856</td>
+					</tr>
+					<tr>
+						<td>Northern Kurdish</td>
+						<td>28</td>
+						<td>1</td>
+						<td>75,358</td>
+					</tr>
+					<tr>
+						<td>Southern Kurdish</td>
+						<td>13</td>
+						<td>1</td>
+						<td>0</td>
+					</tr>
+					<tr>
+						<td>Zazaki</td>
+						<td>10</td>
+						<td>3</td>
+						<td>41,811</td>
+					</tr>
+					<tr>
+						<td>Gorani</td>
+						<td>13</td>
+						<td>4</td>
+						<td>0</td>
+					</tr>
+				  </table>
+				<figcaption class="text-[3.5vh]">
+					Number of language varieties (#Var) and <br> corresponding ISO-Codes (#ISO) according to Glottolog [1], <br> number of wikipedia articles (#Wiki) according to Wikimedia [2].
+				</figcaption>
+				<p class="text-[2vh]">
+					<br>
+					[1] http://glottolog.org
+					<br>
+					[2] https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group
+				</p>
+			</figure>
+			
+		</mybody>
+	</Layout>
+	<Notes>
+		Harald Hammarström, Robert Forkel, Martin Haspelmath, and Sebastian Bank. 2023. Glot- tolog 4.8. (Available online at http://glottolog.org, Accessed on 2024-03-06.).
+		Wikimedia. 2024. List of Wikipedias by language group - Meta — meta.wikimedia.org. https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group. [Accessed 06-03-2024].
+	</Notes></Slide>
+
 	<script>newChapter("Our Languages")</script>
 	<Slide><Layout>
 		<titlebar>Vietnamese </titlebar>
@@ -358,80 +432,6 @@
 	<Notes>
 		These are some presenter notes that can help during the actual presentation.<br>
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
-	</Notes></Slide>
-
-	<script>newChapter("Motivation");</script>
-	<Slide><Layout>
-		<titlebar > Translation Systems (Here Google Translate) Failing Languages  </titlebar>
-		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="CRAMT-Tool-MotivationSimpleMore.png" alt="tum logo">
-			</div>
-		</mybody>
-	</Layout>
-	<Notes>
-		These are some presenter notes that can help during the actual presentation.<br>
-		They are displayed on the presenter's screen if "presenter mode" has been entered.
-	</Notes></Slide>
-
-	<Slide><Layout>
-		<titlebar > Lack of Standardization </titlebar>
-		<mybody>
-			<figure>
-				<table>
-					<tr>
-						<th>Dialect Group</th>
-						<th>#Var</th>
-						<th>#ISO Codes</th>
-						<th>#Wiki (Articles)</th>
-					</tr>
-					<tr>
-						<td>Central Kurdish</td>
-						<td>13</td>
-						<td>2</td>
-						<td>53,856</td>
-					</tr>
-					<tr>
-						<td>Northern Kurdish</td>
-						<td>28</td>
-						<td>1</td>
-						<td>75,358</td>
-					</tr>
-					<tr>
-						<td>Southern Kurdish</td>
-						<td>13</td>
-						<td>1</td>
-						<td>0</td>
-					</tr>
-					<tr>
-						<td>Zazaki</td>
-						<td>10</td>
-						<td>3</td>
-						<td>41,811</td>
-					</tr>
-					<tr>
-						<td>Gorani</td>
-						<td>13</td>
-						<td>4</td>
-						<td>0</td>
-					</tr>
-				  </table>
-				<figcaption class="text-[3.5vh]">
-					Number of language varieties (#Var) and <br> corresponding ISO-Codes (#ISO) according to Glottolog [1], <br> number of wikipedia articles (#Wiki) according to Wikimedia [2].
-				</figcaption>
-				<p class="text-[2vh]">
-					<br>
-					[1] http://glottolog.org
-					<br>
-					[2] https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group
-				</p>
-			</figure>
-			
-		</mybody>
-	</Layout>
-	<Notes>
-		Harald Hammarström, Robert Forkel, Martin Haspelmath, and Sebastian Bank. 2023. Glot- tolog 4.8. (Available online at http://glottolog.org, Accessed on 2024-03-06.).
-		Wikimedia. 2024. List of Wikipedias by language group - Meta — meta.wikimedia.org. https://meta.wikimedia.org/wiki/List_of_Wikipedias_by_language_group. [Accessed 06-03-2024].
 	</Notes></Slide>
 
 	<script> newChapter("Related Work"); </script>
