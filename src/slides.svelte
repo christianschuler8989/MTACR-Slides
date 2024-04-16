@@ -434,7 +434,64 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
+
+	<Slide><Layout>
+		<titlebar>Chinese </titlebar>
+		<mybody>
+			<div class="backgrounds bg-cover bg-center" style="background-image: url('China-Background.png'); margin-top:4.3rem; margin-bottom: 2rem;">
+				<div class="grid" style="grid-template-columns: 2fr 1fr; mx-auto my-auto;">
+					<div>
+						<p class="text-3xl font-bold mt-4 ml-12 text-left">Name:</p>
+					<ul class="d">
+						<li>Chinese (simplified) (汉语)</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">China: </span>
+						Country in East Asia exceeding 1.4 billion inhabitants
+					</p>
+					<ul class="d">
+						<li>Chinese is classified into more than 10 dialect groups</li>
+						<li>Many of which are mutually unintelligible</li>
+					</ul>
+					<p class="text-3xl mt-4 ml-12 text-left">
+						<span class="font-bold">Chinese: </span>
+						A standardized writing system used for all variants
+					</p>
+					<ul class="d">
+						<li>Many low-resource variants, not even properly classified</li>
+						<li>Standard Chinese though, provides lots of resources & tools</li>
+						<li>Proposed as alternative to English-centric NLP research</li>
+					</ul>
+					</div>
+					<div class="flex justify-center items-center">
+						<img src="China-Wikipedia-Position.png" alt="China Position" class="h-[60vh] w-auto mr-28">
+					</div>
+				</div>
+				
+			</div>
+			
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
 	<script> newChapter("Related Work"); </script>
+	<Slide><Layout>
+		<titlebar > Collecting Text Data </titlebar>
+		<mybody>
+			<!-- <div class="flex items-center justify-center">
+				<img class="h-[70vh] align-middle" src="CRAMT-Tool-TextAlignmentsOverviewMulti.png" alt="tum logo">
+			</div> -->
+			TODO: Selenium Web Crawling Image
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
 	<Slide><Layout>
 		<titlebar > Bridging the Language Gap </titlebar>
 		<mybody>
