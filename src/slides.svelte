@@ -660,11 +660,32 @@
 
 	<!-- <script> newChapter("Used Tools"); </script> -->
 	<Slide><Layout>
-		<titlebar > GlotLID (TODO) </titlebar>
+		<titlebar > GlotLID </titlebar>
 		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="title-banner.png" alt="tum logo">
+			<div class="grid" style="grid-template-columns: 4fr 1fr; mx-auto my-auto;">
+				<div>
+					<ul class="d mt-auto pb-[100vh]">
+						<li>Open source language identification tool</li>
+						<li>Recognizes <span class="font-bold">more than 1600 languages</span> -&gt Google Translate can recognize about 130 languages</li>
+						<br>
+						<li>
+							<span class="font-bold">Input: </span>
+							<img class="h-[20vh] w-auto" src="glotlid-input.png" alt="Glotlid input">
+						</li>
+						<br>
+						<li>
+							<span class="font-bold">Output: </span>
+							<img class="h-[15vh] w-auto" src="glotlid-output.png" alt="Glotlid output">
+
+						</li>
+					</ul>
+				</div>
+				<div class="flex items-start justify-start">
+					<img class="h-[20vh] w-auto ml-[10vh]" src="glotlid-logo.png" alt="Glotlid logo">
+				</div>
+				
 			</div>
+		
 		</mybody>
 	</Layout>
 	<Notes>
