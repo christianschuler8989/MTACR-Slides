@@ -525,7 +525,7 @@
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
 	</Notes></Slide>
 
-	<Slide><Layout>
+	<!-- <Slide><Layout>
 		<titlebar > Bilingual Lexicon Induction (TODO) </titlebar>
 		<mybody>
 			<div class="flex items-center justify-center">
@@ -536,7 +536,7 @@
 	<Notes>
 		These are some presenter notes that can help during the actual presentation.<br>
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
-	</Notes></Slide>
+	</Notes></Slide> -->
 
 	<Slide><Layout>
 		<titlebar > Language Ambiguities I </titlebar>
@@ -701,11 +701,13 @@
 	</Notes></Slide>
 	
 	<Slide><Layout>
-		<titlebar > Potato (TODO) </titlebar>
+		<titlebar > Potato Annotation Tasks </titlebar> 
 		<mybody>
-			<div class="flex items-center justify-center">
-				<img class="h-[75vh] align-middle" src="title-banner.png" alt="tum logo">
-			</div>
+			<a href="http://schuler-christian.de/">
+				<div class="flex items-center justify-center">
+					<img class="h-[75vh] align-middle" src="title-banner.png" alt="Potato Task Link">
+				</div>
+			</a>
 		</mybody>
 	</Layout>
 	<Notes>
@@ -859,7 +861,7 @@
 		<titlebar > Collected Data </titlebar>
 		<mybody>
 			<div class="grid" style="grid-template-columns: auto auto; mx-auto my-auto;">
-				<Step fadeRight><img src="mtacr-2024-april.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
+				<img src="mtacr-2024-april.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]">
 				<Step fadeRight><img src="mtacr-2024-april-targets.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
 				<Step fadeDown><img src="mtacr-2024-april-noeng.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
 				<Step fadeDown><img src="mtacr-2024-april-all.png" alt="Data Kob Mfe" class="w-[45vw] h-[40vh]"></Step>
