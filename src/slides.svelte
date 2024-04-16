@@ -481,15 +481,22 @@
 	<Slide><Layout>
 		<titlebar > Collecting Text Data </titlebar>
 		<mybody>
-			<!-- <div class="flex items-center justify-center">
-				<img class="h-[70vh] align-middle" src="CRAMT-Tool-TextAlignmentsOverviewMulti.png" alt="tum logo">
-			</div> -->
-			TODO: Selenium Web Crawling Image
+			<div class="flex items-center justify-center">
+				<img class="h-[75vh] align-middle" src="CRAMT-Tool-CollectWebdata.png" alt="tum logo">
+			</div>
 		</mybody>
 	</Layout>
 	<Notes>
-		These are some presenter notes that can help during the actual presentation.<br>
-		They are displayed on the presenter's screen if "presenter mode" has been entered.
+		To collect data from websites we use selenium. <br>
+		Selenium is primarily intended to automate web applications for testing purposes, but it can also be utilized to collect contents from web pages.  <br>
+		The package used in our toolkit works with most commonly used web browsers such as Firefox, Chrome, and Edge.  <br>
+		<br>
+		The user can decide to either collect the contents from the provided list of URLs, called "static". <br>
+		Or use them as starting points to further explore connected websites to find more data called "explore". <br> 
+		<br>
+		For this, a desired depth can be set, which guides the exploration behavior and how far away the websites can be from the original URLs. <br>
+		<br>
+		Now it is only up to the user to pick the URLs for the right content to be collected- be it language- or even topic-specific.
 	</Notes></Slide>
 
 	<Slide><Layout>
