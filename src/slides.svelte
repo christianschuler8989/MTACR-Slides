@@ -348,7 +348,7 @@
 	</Notes></Slide>
 
 	<Slide><Layout>
-		<titlebar>Kurdish </titlebar>
+		<titlebar>Kurdish Kobani</titlebar>
 		<mybody>
 			<div class="backgrounds bg-cover bg-center" style="background-image: url('Kurdistan-Background.png'); margin-top:4.3rem; margin-bottom: 2rem;">
 				<div class="grid" style="grid-template-columns: 2fr 1fr; mx-auto my-auto;">
@@ -646,12 +646,12 @@
 
 	<script> newChapter("Design \& Development"); </script>
 	<Slide><Layout>
-		<titlebar > Overview of CRAMT </titlebar>
+		<titlebar > Overview of Our Workflow </titlebar>
 		<mybody>
 			<figure class="h-[80vh] w-[70vw]">
 				<img src="CRAMT-Tool-OverviewSimpleSlick.png" alt="ambiguities1" class="mx-auto">
 				<figcaption>
-					Overview of the CRAMT toolkit. User inputs in blue, main processing steps in yellow and resulting artifacts in green.
+					Our inputs in blue, main processing steps in yellow and resulting artifacts in green.
 				</figcaption>
 			</figure>
 
@@ -673,7 +673,11 @@
 				<div>
 					<ul class="d mt-auto pb-[100vh]">
 						<li>Open source language identification tool</li>
-						<li>Recognizes <span class="font-bold">more than 1600 languages</span> -&gt Google Translate can recognize about 130 languages</li>
+						<li>Recognizes <span class="font-bold">more than 1600 languages</span></li>
+						<ul class="c" >
+							<li>Google Translate can recognize about 130 languages</li>
+						</ul>
+						<!--<li>Recognizes <span class="font-bold">more than 1600 languages</span> -&gt Google Translate can recognize about 130 languages</li>-->
 						<br>
 						<li>
 							<span class="font-bold">Input: </span>
@@ -703,6 +707,105 @@
 	<Slide><Layout>
 		<titlebar > Potato Annotation Tasks </titlebar> 
 		<mybody>
+			<div class="grid" style="grid-template-columns: 1fr 2fr 2fr ; mx-auto my-auto;">
+				<div>
+					<a href="http://schuler-christian.de/">
+						<div class="flex items-center justify-center">
+							<img class="h-[20vh] align-middle" src="title-banner.png" alt="Potato Task Link">
+						</div>
+					</a>
+					<img class="w-[30vw] align-middle" src="mtacr-potato-login.png" alt="Potato Login">
+				</div>
+				
+				<div>
+					<Step fadeRight>
+						<img class="h-[70vh] align-middle" src="mtacr-potato-nllb-mfe.png" alt="Potato Login">
+					</Step>
+				</div>
+				<div>
+					<Step fadeRight>
+						<img class="h-[70vh] align-middle" src="mtacr-potato-flickr30k-vie.png" alt="Potato Login">
+					</Step>
+				</div>
+				
+				<!-- <Step fadeRight>
+					<img class="h-[70vh] align-middle" src="mtacr-potato-pos.png" alt="Potato Login">
+				</Step> -->
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes>
+	</Slide>
+
+<!--<Slide><Layout>
+		<titlebar > Potato Annotation Tasks - Translations </titlebar> 
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
+				<div class="flex items-center justify-center">
+					<img class="h-[70vh] align-middle" src="mtacr-potato-nllb-mfe.png" alt="Potato Login">
+				</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes>
+	</Slide> 
+
+	<Slide><Layout>
+		<titlebar > Potato Annotation Tasks - Description </titlebar> 
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
+				<div class="flex items-center justify-center">
+					<img class="h-[70vh] align-middle" src="mtacr-potato-flickr30k-vie.png" alt="Potato Login">
+				</div>
+			</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes>
+	</Slide>
+
+	<Slide><Layout>
+		<titlebar > Potato Annotation Tasks - Part-of-Speech</titlebar> 
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
+				<div class="flex items-center justify-center">
+					<img class="h-[70vh] align-middle" src="mtacr-potato-pos.png" alt="Potato Login">
+				</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes>
+	</Slide> -->
+
+
+
+	<!-- <Slide><Layout>
+		<titlebar > Potato Annotation Tasks </titlebar> 
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
+				<div class="flex items-center justify-center">
+					<img class="w-[45vw] align-middle" src="mtacr-potato-consentform.png" alt="Potato Login">
+				</div>
+			</div>
+		</mybody>
+	</Layout>
+	<Notes>
+		These are some presenter notes that can help during the actual presentation.<br>
+		They are displayed on the presenter's screen if "presenter mode" has been entered.
+	</Notes></Slide>
+
+	<Slide><Layout>
+		<titlebar > Potato Annotation Tasks </titlebar> 
+		<mybody>
+			<div class="grid" style="grid-template-columns: auto; mx-auto my-auto;">
 			<a href="http://schuler-christian.de/">
 				<div class="flex items-center justify-center">
 					<img class="h-[75vh] align-middle" src="title-banner.png" alt="Potato Task Link">
@@ -713,7 +816,7 @@
 	<Notes>
 		These are some presenter notes that can help during the actual presentation.<br>
 		They are displayed on the presenter's screen if "presenter mode" has been entered.
-	</Notes></Slide>
+	</Notes></Slide> -->
 
 	<script> newChapter("Data Quality"); </script>
 	<Slide><Layout>
@@ -888,20 +991,18 @@
 	<Slide><Layout>
 		<titlebar > Introducing CRAMT - A Participatory Research Approach</titlebar>
 		<mybody>
-			<div class="grid" style="grid-template-columns: auto auto; mx-auto my-auto;">
+			<div class="grid" style="grid-template-columns:  1.2fr 3.3fr; mx-auto my-auto;">
 				<!-- Images -->
-				<div class="h-[75vh] w-[45vw]">
-				<ul class="b" >
-					<li>To enable others to do what we did
-						<ul class="b" >
-							<li>less tech-savvy? </li>
-							<li>new to NLP? </li>
-							<li>no idea where to start? </li>
-						</ul>
-				</ul>
+				<div>
+					To enable others, even if
+					<ul class="c" >
+						<li>less tech-savvy, </li>
+						<li>new to NLP, or </li>
+						<li>no idea where to start </li>
+					</ul>
 				</div>
-				<div class="h-[75vh] w-[45vw]">
-					<iframe src="2024-CRAMT_Poster_Expo-Schuler_Tran_Saurty_Wang_Ahmad_Yimam.pdf#page=1&zoom=13" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
+				<div class="h-[70vh]">
+					<iframe src="2024-CRAMT_Poster_Expo-Schuler_Tran_Saurty_Wang_Ahmad_Yimam.pdf#page=1&zoom=50" frameBorder="0" scrolling="auto" height="100%" width="100%" title="ESSV Publication"></iframe>
 				</div>
 		</mybody>
 	</Layout>
@@ -921,19 +1022,18 @@
 				</p>
 				
 				<p>
-					The selection process was very competitive. 
-					Due to time and space limitations, we could only choose a limited number of the submitted papers 
-					to appear on the program. Nonetheless, I still hope you can attend the conference. <br>
-					Additionally, <mark> given the interest found in your project, we encourage you 
-					to submit an updated version of your paper next year.</mark><br><br>
+					The selection process was very competitive. Due to time and space limitations, <br>
+					we could only choose a limited number of the submitted papers to appear on the program. <br>
+					Nonetheless, I still hope you can attend the conference. <br>
+					Additionally, <mark> given the interest found in your project, <br>
+					we encourage you to submit an updated version of your paper next year.</mark><br><br>
 				</p>
 
 				<p>
-					We are happy that you found the reviewers' comments useful.  
-					As mentioned in the specific word added to the notification message, 
+					We are happy that you found the reviewers' comments useful. <br>
+					As mentioned in the specific word added to the notification message, <br>
 					<mark>we hope you can submit an updated paper next year!</mark> 
 				</p>
-				
 		</mybody>
 	</Layout>
 	<Notes>
