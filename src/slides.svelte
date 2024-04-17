@@ -78,11 +78,11 @@
 		</script>
 	</Layout></Slide>
 	<!-- TOC -->
-	<!-- <Slide>
+	<!-- <Slide>-->
 		<script>
 			toc=false; // decides whether to generate table of content page
 		</script>
-		<Layout>
+		<!-- <Layout>
 			<toc class="flex h-full items-center justify-center gap-[100px]">
 				<chpicons> </chpicons>
 				<chpnames class="text-left"> </chpnames>
@@ -245,7 +245,8 @@
 		<titlebar > Lack of Standardization </titlebar>
 		<mybody>
 			<figure>
-				<table>
+				<img src="table.png" style="width:80vw">
+				<!-- <table>
 					<tr>
 						<th>Dialect Group</th>
 						<th>#Var</th>
@@ -282,7 +283,7 @@
 						<td>4</td>
 						<td>0</td>
 					</tr>
-				  </table>
+				  </table> -->
 				<figcaption class="text-[3.5vh]">
 					Number of language varieties (#Var) and <br> corresponding ISO-Codes (#ISO) according to Glottolog [1], <br> number of wikipedia articles (#Wiki) according to Wikimedia [2].
 				</figcaption>
