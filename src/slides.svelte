@@ -693,7 +693,7 @@
 					</ul>
 				</div>
 				<div class="flex items-start justify-start">
-					<img class="h-[20vh] w-auto ml-[10vh]" src="glotlid-logo.png" alt="Glotlid logo">
+					<img class="h-[20vh] w-auto mr-[5vw]" src="glotlid-logo.png" alt="Glotlid logo">
 				</div>
 				
 			</div>
